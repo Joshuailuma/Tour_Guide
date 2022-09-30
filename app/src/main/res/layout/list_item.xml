@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/height">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/common_margin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="88dp"
+            android:layout_height="@dimen/height"
+            android:layout_marginLeft="@dimen/common_margin"
+            app:layout_constraintLeft_toLeftOf="@id/card_view"
+            app:layout_constraintTop_toTopOf="@id/card_view"
+            tools:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:id="@+id/text_container"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height"
+            android:layout_marginLeft="@dimen/height"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@+id/image"
+            app:layout_constraintLeft_toRightOf="@id/image"
+            app:layout_constraintTop_toTopOf="@+id/image">
+
+            <TextView
+                android:id="@+id/title_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textStyle="bold"
+                tools:text="Jesus with the church abide" />
+
+            <TextView
+                android:id="@+id/description1_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:paddingTop="@dimen/common_margin"
+                android:textAppearance="?android:textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/description2_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:paddingTop="@dimen/common_margin"
+                android:textAppearance="?android:textAppearanceSmall" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

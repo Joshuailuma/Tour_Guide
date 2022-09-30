@@ -1,0 +1,64 @@
+<resources>
+    <!-- Title for the application.-->
+    <string name="app_name">Tour Guide</string>
+
+    <!-- Category name for parks -->
+    <string name="category_parks">Parks</string>
+
+    <!-- Category name for cinemas -->
+    <string name="category_cinemas">Cinemas</string>
+
+    <!-- Category name for the restaurant -->
+    <string name="category_restaurant">Eateries</string>
+
+    <!-- Category name for hotels -->
+    <string name="category_hotels">Hotels</string>
+
+    <!--    CONSTANT PLACE-->
+    <string name="portharcourt">Portharcourt</string>
+
+    <!--    CINEMAS-->
+    <string name="deepend">Deepend Cinema</string>
+    <string name="filmhouse">Filmhouse Cinema</string>
+    <string name="Genesis">Genesis Cinema</string>
+    <string name="Kada">Kada Cinema</string>
+    <string name="Lighthouse">Lighthouse Cinema</string>
+    <string name="Magnificent">Magnificent Cinema</string>
+    <string name="Ozone">Ozone cinema</string>
+    <string name="Silverbird">Silverbird Cinema</string>
+
+    <!--    HOTELS-->
+    <string name="Protea">Protea Hotel</string>
+    <string name="Stanbic">Stanbic Hotel</string>
+    <string name="q">Q and A Hotel</string>
+    <string name="Park">Park side Hotel</string>
+    <string name="Mansari">Mansari Hotel</string>
+    <string name="Uyi">Uyi grand Hotel</string>
+    <string name="Rest">Rest Hotel</string>
+    <string name="Relax">Relax Hotel</string>
+    <string name="Perch">Perch Hotel</string>
+    <string name="Viva">Plus Hotel</string>
+    <string name="Eko">Eko Hotel</string>
+    <string name="Plus">Plus Hotel</string>
+
+    <!--    EATRIES-->
+    <string name="Buka">Buka Queen</string>
+    <string name="Food">Food Cafe</string>
+    <string name="Chilling">Chilling Chow</string>
+    <string name="China">China Restaurant</string>
+    <string name="Sweet">Sweet Foods</string>
+    <string name="GT">GT Foods</string>
+    <string name="Kadis">Kadis Foods</string>
+
+    <!--    PARKS-->
+    <string name="Kanu">Kanu Park</string>
+    <string name="Lekki">Lekki Park</string>
+    <string name="James">James Park</string>
+    <string name="Olumo">Olumo Rock</string>
+    <string name="Pemsi">Pemsi Nature</string>
+    <string name="Tinubu">Tinubu Park</string>
+    <string name="National">National Museum</string>
+
+    <!--    CONSTANT PHONE NUMBER-->
+    <string name="number">0806 232 1888</string>
+</resources>
